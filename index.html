@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Apex Canine - Enterprise-grade executive dog walking and daily concierge pet care services with real-time GPS tracking and certified handlers.">
+  <title>Apex Canine | Executive Dog Walking & Concierge Care</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header Landmark -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#top" class="brand-logo" aria-label="Apex Canine Homepage">
+        <span class="brand-mark" aria-hidden="true">AC</span>
+        <span>Apex Canine</span>
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#walkers">Directory</a></li>
+          <li><a href="#booking">Book Walk</a></li>
+          <li><a href="#reviews">Testimonials</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#booking" class="btn btn-primary btn-sm">Reserve Schedule</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-badge">Corporate Standard Care</span>
+          <h1 id="hero-heading" class="hero-title">Executive Canine Care &amp; Daily Concierge Walks</h1>
+          <p class="hero-lead">
+            Vetted handlers, millimeter GPS logging, and tailored physical conditioning for busy enterprise professionals and their canine companions.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#booking" class="btn btn-primary">Schedule Priority Walk</a>
+            <a href="#walkers" class="btn btn-secondary">Explore Vetted Walkers</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Background Checked</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">18,500+</span>
+              <span class="stat-label">Corporate Walks Logged</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">4.98 / 5</span>
+              <span class="stat-label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-aside">
+          <div class="hero-card">
+            <div class="hero-card-header">
+              <h3>Enterprise Assurance Protocol</h3>
+            </div>
+            <ul class="service-checklist">
+              <li>
+                <span class="checklist-icon" aria-hidden="true">&#10003;</span>
+                <span>$5M Comprehensive Liability Insurance</span>
+              </li>
+              <li>
+                <span class="checklist-icon" aria-hidden="true">&#10003;</span>
+                <span>Real-Time GPS Route &amp; Health Telemetry</span>
+              </li>
+              <li>
+                <span class="checklist-icon" aria-hidden="true">&#10003;</span>
+                <span>Canine First-Aid &amp; CPR Certified Staff</span>
+              </li>
+              <li>
+                <span class="checklist-icon" aria-hidden="true">&#10003;</span>
+                <span>Dedicated Single-Handler Consistency</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services-section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Tiered Offerings</span>
+          <h2 id="services-heading" class="section-title">Structured Care Programs</h2>
+          <p class="section-subtitle">
+            Engineered around canine physiological wellbeing, consistent pacing, and disciplined behavioral reinforcement.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Tier 1 -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <span class="service-code">SVC-01</span>
+              <h3>Executive Stride</h3>
+              <p>One-on-one tailored 45-minute structured walk designed for high-focus stimulation and fitness tracking.</p>
+              <div class="service-price">$45 <span>/ session</span></div>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-service-select="executive-stride">Select Program</a>
+          </article>
+
+          <!-- Tier 2 -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <span class="service-code">SVC-02</span>
+              <h3>Pack Social Stride</h3>
+              <p>Supervised small group (max 3 compatible dogs) 60-minute neighborhood expedition emphasizing positive socialization.</p>
+              <div class="service-price">$35 <span>/ session</span></div>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-service-select="pack-stride">Select Program</a>
+          </article>
+
+          <!-- Tier 3 -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <span class="service-code">SVC-03</span>
+              <h3>Senior &amp; Puppy Gentle</h3>
+              <p>Low-impact 30-minute sensory walk with dedicated hydration checks, gentle mobility, and medication admin.</p>
+              <div class="service-price">$40 <span>/ session</span></div>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-service-select="gentle-care">Select Program</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Walker Directory & Filter Section -->
+    <section id="walkers" class="section directory-section" aria-labelledby="walkers-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Vetted Personnel</span>
+          <h2 id="walkers-heading" class="section-title">Certified Handler Directory</h2>
+          <p class="section-subtitle">
+            Search our licensed team of canine care specialists by name, specialty, or certification.
+          </p>
+        </div>
+
+        <div class="search-controls">
+          <label for="walker-search" class="visually-hidden">Search handlers by name or specialty</label>
+          <div class="search-input-wrapper">
+            <input
+              type="search"
+              id="walker-search"
+              class="search-input"
+              placeholder="Search by name, role, or specialty (e.g. Apex, Senior, Behaviour)..."
+              autocomplete="off"
+              aria-label="Search handlers by name or specialty"
+            >
+          </div>
+          <span class="search-hint">Instant client-side filter. Results update as you type.</span>
+        </div>
+
+        <!-- Walkers Card Grid -->
+        <div id="walkers-list" class="walkers-grid" aria-live="polite">
+          <!-- Walker 1 -->
+          <article class="walker-card" data-walker-id="walker-1">
+            <div class="walker-avatar" aria-hidden="true">MV</div>
+            <h3 class="walker-name">Apex Lead Marcus Vance</h3>
+            <span class="walker-role">Senior Behaviour Specialist</span>
+            <p class="walker-bio">Former working dog trainer with 8 years of corporate canine handling. Specializes in leash reactivity and high-stamina routes.</p>
+            <div class="walker-meta">
+              <span>Experience: 8 yrs</span>
+              <span>Rating: 5.0 (420 walks)</span>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-walker-select="Marcus Vance">Request Handler</a>
+          </article>
+
+          <!-- Walker 2 -->
+          <article class="walker-card" data-walker-id="walker-2">
+            <div class="walker-avatar" aria-hidden="true">ER</div>
+            <h3 class="walker-name">Elena Rostova</h3>
+            <span class="walker-role">Puppy &amp; Junior Specialist</span>
+            <p class="walker-bio">Certified veterinary technician with focus on puppy socialization, structured feeding routines, and positive reinforcement training.</p>
+            <div class="walker-meta">
+              <span>Experience: 6 yrs</span>
+              <span>Rating: 4.97 (310 walks)</span>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-walker-select="Elena Rostova">Request Handler</a>
+          </article>
+
+          <!-- Walker 3 -->
+          <article class="walker-card" data-walker-id="walker-3">
+            <div class="walker-avatar" aria-hidden="true">JT</div>
+            <h3 class="walker-name">Julian Thorne</h3>
+            <span class="walker-role">Senior Mobility Specialist</span>
+            <p class="walker-bio">Canine physiotherapy assistant experienced with geriatric care, gentle joint conditioning, and monitored recovery walks.</p>
+            <div class="walker-meta">
+              <span>Experience: 5 yrs</span>
+              <span>Rating: 4.99 (280 walks)</span>
+            </div>
+            <a href="#booking" class="btn btn-secondary btn-sm" data-walker-select="Julian Thorne">Request Handler</a>
+          </article>
+
+          <!-- Unhappy Path: Empty State Message -->
+          <div id="empty-state" class="empty-state is-hidden" role="status" aria-live="polite">
+            <div class="empty-state-icon" aria-hidden="true">&#9888;</div>
+            <h3 class="empty-state-title">No data found</h3>
+            <p class="empty-state-desc">
+              We couldn't find any handlers matching your query. Please try searching for a different term or clear your filters to view all staff.
+            </p>
+            <button type="button" id="reset-search-btn" class="btn btn-secondary btn-sm" aria-label="Clear handler search filter">
+              Clear Search Filter
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking & Reservation Section -->
+    <section id="booking" class="section booking-section" aria-labelledby="booking-heading">
+      <div class="container">
+        <div class="booking-layout">
+          <!-- Information Column -->
+          <div class="booking-info">
+            <span class="section-tag">Direct Scheduling</span>
+            <h2 id="booking-heading" class="section-title">Schedule Your Consultation &amp; Walk</h2>
+            <p>
+              Submit your request to our enterprise dispatch system. We assign a dedicated certified handler and issue a verified route itinerary within 2 hours.
+            </p>
+
+            <ul class="sla-list">
+              <li class="sla-item">
+                <span class="sla-number">1</span>
+                <div class="sla-text">
+                  <h4>Immediate Intake</h4>
+                  <p>Our dispatch team reviews canine medical history and behavioral preferences.</p>
+                </div>
+              </li>
+              <li class="sla-item">
+                <span class="sla-number">2</span>
+                <div class="sla-text">
+                  <h4>Handler Assignment</h4>
+                  <p>A primary handler is paired with backup redundancy for seamless coverage.</p>
+                </div>
+              </li>
+              <li class="sla-item">
+                <span class="sla-number">3</span>
+                <div class="sla-text">
+                  <h4>Live Telemetry Dispatch</h4>
+                  <p>Receive check-in alerts, route GPS, and post-walk wellness report cards.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Form Column -->
+          <div class="form-card">
+            <h3 class="form-title">Service Request Form</h3>
+            <p class="form-subtitle">All fields marked with an asterisk (<span class="required-star">*</span>) are mandatory.</p>
+
+            <!-- Unhappy Path: Form Error Summary Box -->
+            <div id="form-error-summary" class="form-error-summary is-hidden" role="alert" aria-live="assertive" tabindex="-1">
+              <div class="form-error-summary-title">Please correct the highlighted errors before submitting:</div>
+              <ul id="error-list" class="form-error-summary-list"></ul>
+            </div>
+
+            <!-- Booking Form -->
+            <form id="booking-form" novalidate aria-busy="false">
+              <!-- Client Name -->
+              <div class="form-group">
+                <label for="client-name">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="client-name"
+                  name="clientName"
+                  class="form-control"
+                  placeholder="e.g. Eleanor Sterling"
+                  required
+                  aria-required="true"
+                >
+                <span id="client-name-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Client Email -->
+              <div class="form-group">
+                <label for="client-email">Corporate / Personal Email <span class="required-star" aria-hidden="true">*</span></label>
+                <input
+                  type="email"
+                  id="client-email"
+                  name="clientEmail"
+                  class="form-control"
+                  placeholder="eleanor@enterprise.com"
+                  required
+                  aria-required="true"
+                >
+                <span id="client-email-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Client Phone -->
+              <div class="form-group">
+                <label for="client-phone">Direct Phone Number <span class="required-star" aria-hidden="true">*</span></label>
+                <input
+                  type="tel"
+                  id="client-phone"
+                  name="clientPhone"
+                  class="form-control"
+                  placeholder="555-0199"
+                  required
+                  aria-required="true"
+                >
+                <span id="client-phone-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Dog Name -->
+              <div class="form-group">
+                <label for="dog-name">Canine Companion Name <span class="required-star" aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="dog-name"
+                  name="dogName"
+                  class="form-control"
+                  placeholder="e.g. Barnaby"
+                  required
+                  aria-required="true"
+                >
+                <span id="dog-name-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Service Type -->
+              <div class="form-group">
+                <label for="service-type">Requested Service Tier <span class="required-star" aria-hidden="true">*</span></label>
+                <select id="service-type" name="serviceType" class="form-control" required aria-required="true">
+                  <option value="">-- Please select a program tier --</option>
+                  <option value="executive-stride">SVC-01: Executive Stride (Solo, 45 mins)</option>
+                  <option value="pack-stride">SVC-02: Pack Social Stride (Group of 3, 60 mins)</option>
+                  <option value="gentle-care">SVC-03: Senior &amp; Puppy Gentle Care (30 mins)</option>
+                </select>
+                <span id="service-type-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Booking Date -->
+              <div class="form-group">
+                <label for="booking-date">Commencement Date <span class="required-star" aria-hidden="true">*</span></label>
+                <input
+                  type="date"
+                  id="booking-date"
+                  name="bookingDate"
+                  class="form-control"
+                  required
+                  aria-required="true"
+                >
+                <span id="booking-date-error" class="field-error-message is-hidden" aria-live="polite"></span>
+              </div>
+
+              <!-- Special Notes -->
+              <div class="form-group">
+                <label for="special-notes">Behavioral Notes / Access Instructions (Optional)</label>
+                <textarea
+                  id="special-notes"
+                  name="specialNotes"
+                  class="form-control"
+                  rows="3"
+                  placeholder="e.g. Concierge key code, dog prefers quiet residential streets, treats restricted."
+                ></textarea>
+              </div>
+
+              <!-- Form Submission & Loading Indicator -->
+              <div class="form-actions">
+                <button type="submit" id="submit-booking-btn" class="btn btn-primary">
+                  <span>Submit Service Reservation</span>
+                </button>
+
+                <!-- Unhappy Path: Bad Connectivity Loading Indicator -->
+                <div id="loading-indicator" class="loading-indicator is-hidden" role="status" aria-live="polite">
+                  <div class="spinner" aria-hidden="true"></div>
+                  <span>Connecting to Dispatch (Simulating 3G Latency)...</span>
+                </div>
+              </div>
+            </form>
+
+            <!-- Booking Success Confirmation State -->
+            <div id="booking-confirmation-banner" class="form-confirmation is-hidden" role="status" aria-live="polite" tabindex="-1">
+              <!-- Header -->
+              <div class="receipt-header">
+                <div class="receipt-check" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <div>
+                  <h4 class="receipt-title">Reservation Confirmed</h4>
+                  <p class="receipt-subtitle">Successfully queued into the dispatch engine.</p>
+                </div>
+              </div>
+
+              <!-- Confirmation ID + Status -->
+              <div class="receipt-id-row">
+                <div>
+                  <span class="receipt-label">Confirmation ID</span>
+                  <span id="receipt-conf-id" class="receipt-conf-id">—</span>
+                </div>
+                <span class="receipt-status-badge">Confirmed &amp; Pending Dispatch</span>
+              </div>
+
+              <!-- Submitted At -->
+              <div class="receipt-meta-row">
+                <span class="receipt-label">Submitted</span>
+                <span id="receipt-submitted-at" class="receipt-meta-value">—</span>
+              </div>
+
+              <!-- Two-column details -->
+              <div class="receipt-grid">
+                <!-- Client -->
+                <div class="receipt-section">
+                  <div class="receipt-section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                    Client
+                  </div>
+                  <dl class="receipt-dl">
+                    <div class="receipt-row"><dt>Name</dt><dd id="receipt-name">—</dd></div>
+                    <div class="receipt-row"><dt>Email</dt><dd id="receipt-email">—</dd></div>
+                    <div class="receipt-row"><dt>Phone</dt><dd id="receipt-phone">—</dd></div>
+                  </dl>
+                </div>
+
+                <!-- Service -->
+                <div class="receipt-section">
+                  <div class="receipt-section-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    Service
+                  </div>
+                  <dl class="receipt-dl">
+                    <div class="receipt-row"><dt>Program</dt><dd id="receipt-program">—</dd></div>
+                    <div class="receipt-row"><dt>Canine</dt><dd id="receipt-dog">—</dd></div>
+                    <div class="receipt-row"><dt>Date</dt><dd id="receipt-date">—</dd></div>
+                    <div class="receipt-row"><dt>Notes</dt><dd id="receipt-notes">—</dd></div>
+                  </dl>
+                </div>
+              </div>
+
+              <!-- SLA -->
+              <div class="receipt-sla">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span id="receipt-sla">—</span>
+              </div>
+
+              <button type="button" id="new-booking-btn" class="btn btn-secondary btn-sm" style="margin-top: 20px;">
+                Submit Another Request
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Corporate Proof Section -->
+    <section id="reviews" class="section proof-section" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Client Feedback</span>
+          <h2 id="reviews-heading" class="section-title">Endorsed by Demanding Pet Parents</h2>
+          <p class="section-subtitle">
+            Reliability and punctuality measured to enterprise standards.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Apex Canine operates with the rigor of a private family office. The handler reports are detailed, the GPS trace gives complete peace of mind, and our Weimaraner is noticeably calmer."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-name">David K.</div>
+              <div class="author-title">Partner, Management Consultancy</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "When I am travelling between regional offices, knowing Elena is managing our senior retriever's medication and joint walks is invaluable. Flawless reliability."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-name">Sarah M.</div>
+              <div class="author-title">VP of Engineering, FinTech</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "The booking and intake system was clean and transparent. Zero fluff, transparent pricing, and Marcus handled our high-drive German Shepherd with consummate mastery."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-name">Arthur C.</div>
+              <div class="author-title">Director of Operations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Landmark -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#top" class="brand-logo" aria-label="Apex Canine Homepage">
+            <span class="brand-mark" aria-hidden="true">AC</span>
+            <span>Apex Canine</span>
+          </a>
+          <p>
+            Enterprise canine care, scheduled daily exercise, and personalized behavioral maintenance for corporate clients.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#walkers">Directory</a></li>
+            <li><a href="#booking">Book Walk</a></li>
+            <li><a href="#reviews">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal &amp; Compliance</h4>
+          <ul class="footer-links">
+            <li><a href="#booking">Terms of Care</a></li>
+            <li><a href="#booking">Liability Policy</a></li>
+            <li><a href="#booking">Privacy Protocol</a></li>
+            <li><a href="#booking">Accessibility Statement</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Enterprise Dispatch</h4>
+          <ul class="footer-links">
+            <li><a href="tel:5550199">Emergency: 555-0199</a></li>
+            <li><a href="mailto:dispatch@apexcanine.internal">dispatch@apexcanine.internal</a></li>
+            <li><a href="#booking">Hours: 06:00 - 21:00 Daily</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Apex Canine Services LLC. All rights reserved.</span>
+        <span>Built with semantic HTML5 &amp; Monochromatic CSS. Monitored with strict a11y &amp; sanitized telemetry.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top is-hidden" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+
+  <!-- Script Module -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
